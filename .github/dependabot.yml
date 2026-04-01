@@ -1,0 +1,118 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: "/common/twitter-follower-count"
+    schedule:
+      interval: weekly
+      day: monday
+      time: "09:00"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 10
+    groups:
+      javascript:
+        patterns:
+          - "*"
+
+  - package-ecosystem: npm
+    directory: "/common/variable-overrides"
+    schedule:
+      interval: weekly
+      day: monday
+      time: "09:00"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 10
+    groups:
+      javascript:
+        patterns:
+          - "*"
+
+  - package-ecosystem: bun
+    directory: "/evm"
+    schedule:
+      interval: weekly
+      day: monday
+      time: "09:00"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 10
+    groups:
+      bun:
+        patterns:
+          - "*"
+
+  - package-ecosystem: cargo
+    directory: "/solana"
+    schedule:
+      interval: weekly
+      day: monday
+      time: "09:00"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 10
+    groups:
+      rust:
+        patterns:
+          - "*"
+
+  - package-ecosystem: npm
+    directory: "/solana"
+    schedule:
+      interval: weekly
+      day: monday
+      time: "09:00"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 10
+    groups:
+      javascript:
+        patterns:
+          - "*"
+
+  - package-ecosystem: npm
+    directory: "/solana/examples/randomness"
+    schedule:
+      interval: weekly
+      day: monday
+      time: "09:00"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 10
+    groups:
+      javascript:
+        patterns:
+          - "*"
+
+  - package-ecosystem: cargo
+    directory: "/solana/examples/variable-overrides"
+    schedule:
+      interval: weekly
+      day: monday
+      time: "09:00"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 10
+    groups:
+      rust:
+        patterns:
+          - "*"
+
+  - package-ecosystem: bun
+    directory: "/solana/examples/variable-overrides"
+    schedule:
+      interval: weekly
+      day: monday
+      time: "09:00"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 10
+    groups:
+      bun:
+        patterns:
+          - "*"
+
+  - package-ecosystem: bun
+    directory: "/sui"
+    schedule:
+      interval: weekly
+      day: monday
+      time: "09:00"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 10
+    groups:
+      bun:
+        patterns:
+          - "*"
