@@ -26,4 +26,4 @@ bytemuck = "1.14"
 litesvm = "=0.6.1"
 solana-sdk = "2.1"  # Match litesvm's version
 hex = "0.4"
-openssl = { version = "0.10.74", features = ["vendored"] }
+openssl = { version = "0.10.80", features = ["vendored"] }
