@@ -27,6 +27,7 @@ evm/
 # Clone and install
 cd evm
 bun install
+git submodule update --init lib/forge-std
 
 # Build contracts
 forge build
