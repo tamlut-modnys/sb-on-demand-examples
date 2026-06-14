@@ -88,4 +88,6 @@ These resources let you design and test oracle functionality once, then deploy o
 
 Each directory contains specific examples with their own setup instructions. Choose your blockchain platform above to explore the relevant examples.
 
+Start with the chain-specific README before running examples, since dependencies and environment variables differ by ecosystem.
+
 For comprehensive documentation and integration guides, visit our [official documentation](https://docs.switchboard.xyz/)
